@@ -37,14 +37,14 @@ def calculate():
         else: # trường hợp cuối 0.8 km với 11000 * 10/8 và (31-0.8) km sau và (km-31) km cuối
             distanceprice = 0.8 * 11000 * 10/8 + (31-0.8) * 15300 + (km-31) * 12100
         total = distanceprice + idleprice
-        print("IdlePrice: ", idleprice)
-        print("DistancePrice: ", distanceprice)
-        print("Total: ", total)
+        #print("IdlePrice: ", idleprice)
+        #print("DistancePrice: ", distanceprice)
+        #print("Total: ", total)
 
         # # ra dạng 100,000,000
-        # print(f"IdlePrice:  {idleprice:,}")
-        # print(f"DistancePrice: {distanceprice:,}")
-        # print(f"Total: {total:,}")
+        print(f"IdlePrice:  {idleprice:,} VND")
+        print(f"DistancePrice: {distanceprice:,} VND")
+        print(f"Total: {total:,} VND")
     if btype == '7 seats':
         # tương tự
         idleprice = (wtime - 5) * 750
@@ -55,13 +55,13 @@ def calculate():
         else:
             distanceprice = (0.8 * 12000 * 10/8) + (31-0.8) * 16100 + (km-31) * 13800
         total = distanceprice + idleprice
-        print("IdlePrice: ", idleprice)
-        print("DistancePrice: ", distanceprice)
-        print("Total: ", total)
+        #print("IdlePrice: ", idleprice)
+        #print("DistancePrice: ", distanceprice)
+        #print("Total: ", total)
 
         # # ra dạng 100,000,000
-        # print(f"IdlePrice:  {idleprice:,}")
-        # print(f"DistancePrice: {distanceprice:,}")
-        # print(f"Total: {total:,}")
+        print(f"IdlePrice:  {idleprice:,} VND")
+        print(f"DistancePrice: {distanceprice:,} VND")
+        print(f"Total: {total:,} VND")
 
 calculate()
