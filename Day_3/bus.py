@@ -1,3 +1,5 @@
+#EXAMPLE https://gyazo.com/95c7dd7f979dce3b06bcea8ba47fdb9d
+#DOWNLOAD pip install questionnaire before USING
 import questionary
 btype = ''
 
