@@ -34,21 +34,22 @@ def calculate(typeprice):
     elif days == 1:
         print('Type Chosed:',roomtype)
         print('Days:',days)
-        print('Total:',typeprice)
+        print(f"Total: {typeprice:,} VND")
     elif days == 3 or 2:
         discount = (typeprice*days)*.25
         totalprice = typeprice*days - discount
         print('Type Chosed:',roomtype)
         print('Days:',days)
-        print("Discount:",discount)
-        print('Total:',totalprice)
+        print(f"Discount: {discount:,} VND")
+        print(f"Total: {totalprice:,} VND")
+        
     elif days >= 4:
         discount = (typeprice*days)*.30
         totalprice = typeprice*days - discount
         print('Type Chosed:',roomtype)
         print('Days:',days)
-        print("Discount:",discount)
-        print('Total:',totalprice)
+        print(f"Discount: {discount:,} VND")
+        print(f"Total: {totalprice:,} VND")
 
 
 def typesort():
