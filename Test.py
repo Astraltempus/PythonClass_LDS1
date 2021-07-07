@@ -1,5 +1,5 @@
 #IGNORE!!! I test random stuff here lmao
-# Hoang Vo
+# Assist Hoang Vo
 
 loai_1 = 1260000 #Standard
 loai_2 =  1550000 #Sup_garden_view
