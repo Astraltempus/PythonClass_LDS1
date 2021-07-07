@@ -1,3 +1,5 @@
+# tải questionary trước khi run vào command promt và enter "pip install questionary"
+# Tuan Le
 import questionary
 class1 = dict(name = "Standard", price = 1260000 )
 class2 = dict(name = "Superior Garden View", price = 1550000 )
