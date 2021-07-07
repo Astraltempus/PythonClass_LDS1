@@ -1,7 +1,0 @@
-x = int(input("Enter a number: "))
-y = int(input("Enter a number: "))
-print("******************RESULT******************")
-print("Tổng x+y = ",x+y)
-print("Tổng x-y = ",x-y)
-print("Tổng x*y = ",x*y)
-print("Tổng x/y = ",x/y)
