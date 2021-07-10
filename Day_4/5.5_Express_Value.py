@@ -83,3 +83,23 @@ print(" = {0}".format(dtotal))
         
 #     number += 1
 # print("D while method = {0}".format(dtotal))
+
+# E using for loop
+
+
+etotal = 0
+
+print("E =", end=" ")
+for number in range(1, num+1):             
+    tam = 0
+    for j in range(1, number+1):         # Kiểm tra i có phải số nguyên tố
+        so_du = number % j
+        if so_du == 0:
+            tam += 1
+    else:
+        if tam == 2:                # Nếu là số nguyên tố bắt đầu tính E
+            etotal += number
+            print(number, end=" + ")
+else:
+    print("=", etotal)
+    
