@@ -1,11 +1,9 @@
-maximum = int(input(" Please Enter the Maximum Value : "))
-total = 0
-number = 1
- 
-while number <= maximum:
-    if(number % 2 == 0):
-        print("{0}".format(number))
-        total = total + number
-    number = number + 1
+num = 4
+etotal = 0
 
-print("The Sum of Even Numbers from 1 to N = {0}".format(total))
+for number in range(2, num): # +1 because it gets the number before the last number.
+    if (num % number) == 0: # If num is divisible by 2, it is not prime
+        print(number, "is not a prime number")
+    else: # Sucess
+        etotal = number + etotal
+print("E = {0}".format(etotal))
