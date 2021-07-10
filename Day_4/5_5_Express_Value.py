@@ -26,7 +26,7 @@ btotal = 0
 
 # B Using For loop
 print("B =", end=" ")
-for number in range(2, num):
+for number in range(2, num +1):
     if(number % 2 == 0): # if number is divisible by 2 then
         print(number, end= " + ")
         btotal = btotal + number # add that number in the list
